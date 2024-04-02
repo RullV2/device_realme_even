@@ -17,9 +17,9 @@ $(GATEKEEPER_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 	$(hide) ln -sf libSoftGatekeeper.so $@
 
 GATEKEEPER_SYMLINK += $(TARGET_OUT_VENDOR)/lib/hw/gatekeeper.mt6768.so
-GATEKEEPER_SYMLINK += $(TARGET_OUT_VENDOR)/lib/hw/gatekeeper.oppo6769.so
+GATEKEEPER_SYMLINK += $(TARGET_OUT_VENDOR)/lib/hw/gatekeeper.oppo6768.so
 GATEKEEPER_SYMLINK += $(TARGET_OUT_VENDOR)/lib64/hw/gatekeeper.mt6768.so
-GATEKEEPER_SYMLINK += $(TARGET_OUT_VENDOR)/lib64/hw/gatekeeper.oppo6769.so
+GATEKEEPER_SYMLINK += $(TARGET_OUT_VENDOR)/lib64/hw/gatekeeper.oppo6768.so
 $(GATEKEEPER_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 	@mkdir -p $(dir $@)
 	$(hide) ln -sf libMcGatekeeper.so $@

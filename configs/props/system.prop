@@ -79,7 +79,7 @@ ro.mtk_perf_fast_start_win=1
 ro.mtk_perf_response_time=1
 
 # Product
-ro.product.board=oppo6769
+ro.product.board=oppo6768
 ro.board.platform=mt6768
 ro.hardware.egl=mali
 
